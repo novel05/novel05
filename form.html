@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="POST">
+        <label for="username">Username :</label>
+        <input type="text" name="username" placeholder="Username" required>
+        <br></br> 
+
+        <label for="fname">First Name :</label>
+        <input type="text" name="firstname" placeholder="First Name" required>
+        <br></br>
+
+        <label for="lname">Last Name :</label>
+        <input type="text" name="lastname" placeholder="Last Name" required>
+        <br></br>
+
+        <label for="email">Email ID :</label>
+        <input type="email" name="email" placeholder="Email ID" required>
+        <br></br>
+
+        <label for="password">Password :</label>
+        <input type="text" name="password" placeholder="Password" required>
+        <br></br>
+
+        <label for="contact">Contact No. :</label>
+        <input type="number" name="contact" placeholder="Contact No." value="+91" max="10">
+        <br></br>
+
+        <label for="gender">Genger:</label>
+	    <input type="radio" name="gender" value="male">Male
+	    <input type="radio" name="gender" value="female">FeMale
+        <input type="radio" name="gender" value="female">Prefer not to say
+        <br></br>
+
+        <label for="dob">Date of Birth :</label>
+        <input type="date" name="dob" placeholder="DOB" >
+        <br></br>
+
+        <label for="nationality">Nationality :</label>
+        <input type="radio" name="nationality"> Indian
+        <input type="radio" name="nationality"> Other
+        <br></br>
+
+        <label for="description">Communication Address. :</label>
+        <textarea type="textbox" name="communicationaddress"></textarea>
+        <br></br>
+
+        <label for="course">Choose a Course:</label>
+        <input type="checkbox" name="course" value="course" >Full Stack Developer
+        <input type="checkbox" name="course" value="course" >Fronted Developer
+        <input type="checkbox" name="course" value="course" >Backend Developer
+        <input type="checkbox" name="course" value="course" >UI/UX Developer
+        <br></br>
+
+        <label for="file">Upload passort Photo:</label>
+        <input type="file" id="myFile" name="filename">
+        <br></br>
+
+        <label for="file">Upload Signature:</label>
+        <input type="file" id="myFile" name="signature">
+        <br></br>
+
+        <input type="checkbox" name="course" value="course" >I accept the terms and condition
+        <br></br>
+
+        <button>Submit</button>
+        <button>Reset</button>
+    </form>
+</body>
+</html>
